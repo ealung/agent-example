@@ -1,0 +1,2 @@
+- 如果使用premain方式，请在启动jvm参数中配置对应agent路径
+    - -javaagent:/yourpath/agent.jar

@@ -1,0 +1,5 @@
+- 修改相关路径
+    - 这里测试时使用的是个人自己机器地址，运行前请修改自己的地址
+        - 以下AgentDemo类的两处修改成你自己机器agent-demo-web工程的Test类的路径
+        - if(allLoadedClass.getName().contains("com.example.agentdemoweb.Test")){
+        - String path="/Users/zhangchanglu/IdeaProjects/agent-demo-web/src/main/java/com/example/agentdemoweb/Test.class";
